@@ -1,0 +1,45 @@
+.body {
+    background-color: #aca5a5;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 20px;
+    margin-left: 44.5vw;
+    background-color: #f49c06;
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+    animation: rotateimg 3s infinite linear;
+}
+@keyframes rotateimg {
+    0%{ transform: rotate(0deg);}
+        /* initial state */
+    100% { transform: rotate(360deg);
+        /* final state */
+    }}
